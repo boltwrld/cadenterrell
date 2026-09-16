@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Caden Terrell: Computational Media student, designer, developer, and collegiate athlete at Georgia Tech. Explore selected projects.">
+  <meta name="theme-color" content="#000000">
+  <title>Caden Terrell: Design & Development</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#projects">Skip to projects</a>
+  <div class="intro" id="top">
+    <header class="site-header wrap">
+      <a class="wordmark" href="#top">Caden Terrell</a>
+      <nav aria-label="Main navigation"><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+    </header>
+    <section class="hero wrap" aria-label="About Caden">
+      <div class="bio"><p>I’m a Computational Media student at the Georgia Institute of Technology and collegiate athlete with a passion for combining creativity and technology. I specialize in creating engaging graphics, videos, and digital experiences while exploring the intersection of design, media, and full-stack development. My work brings together visual storytelling, creative design, and coding to build experiences that are both visually compelling and functional.</p><div class="bio-base" aria-hidden="true"></div></div>
+      <img class="portrait" src="assets/caden.png" alt="Black-and-white graphic portrait of Caden Terrell" width="1584" height="1568" fetchpriority="high">
+    </section>
+  </div>
+  <main id="projects" class="projects">
+    <div class="wrap">
+      <h1>Projects</h1>
+      <div class="project-list">
+        <article class="project">
+          <div class="project-cover portfolio-cover"><div class="cover-art"><img src="assets/wireframe.png" alt="Original wireframe for this portfolio website" loading="lazy"></div><div class="cover-caption"><h2>Portfolio Website</h2><p>HTML / CSS / JavaScript</p></div></div>
+          <div class="project-info"><div><p>Designed and hand-coded this portfolio using HTML, CSS, and JavaScript, with a focus on clean, responsive design and smooth interactions.</p></div><button class="more" data-project="portfolio" aria-label="More about Portfolio Website">More <span aria-hidden="true">↗</span></button></div>
+        </article>
+        <article class="project">
+          <div class="project-cover"><div class="cover-art runnerworld"><img src="assets/runnerworld.png" alt="Runnerworld: we run the world" loading="lazy"></div><div class="cover-caption"><h2>Runnerworld</h2><p>Wireframing / UI / UX</p></div></div>
+          <div class="project-info"><div><p>Designed Runnerworld, a running tracker app UI/UX concept that reimagines fitness tracking as social and enjoyable rather than routine.</p><p class="context">Done for: LMC 3710 · Class project</p></div><a class="more" href="https://www.behance.net/gallery/216075311/Runnerworld-UIUX/modules/1230508897" target="_blank" rel="noopener noreferrer" aria-label="View Runnerworld on Behance (opens in a new tab)">More <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project">
+          <div class="project-cover"><div class="cover-art"><img src="assets/coca-cola.png" alt="Coca-Cola winter can concept featuring a polar bear in the snow" loading="lazy"></div><div class="cover-caption"><h2>Coca-Cola</h2><p>Visual Design / UI / UX</p></div></div>
+          <div class="project-info"><div><p>Designed a Coca-Cola can, advertisement, and landing page.</p><p class="context">Done for: Passion project</p></div><a class="more" href="https://www.behance.net/gallery/207585739/COCA-COLA-CanWebsite-Mock-Up" target="_blank" rel="noopener noreferrer" aria-label="View Coca-Cola on Behance (opens in a new tab)">More <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project">
+          <div class="project-cover"><div class="cover-art friendly"><img src="assets/friendly.png" alt="Friendly: A Close-Knit Social App" loading="lazy"></div><div class="cover-caption"><h2>Friendly</h2><p>Wireframing / UI / UX</p></div></div>
+          <div class="project-info"><div><p>Designed a social app with a twist. A close-knit space for friends and family. Social media without the fame aspect.</p><p class="context">Done for: LMC 3710</p></div><a class="more" href="https://www.behance.net/gallery/219514447/Friendly-A-Close-Knit-Social-App-UIUX" target="_blank" rel="noopener noreferrer" aria-label="View Friendly on Behance (opens in a new tab)">More <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project ongoing">
+          <div class="project-cover"><div class="cover-art mtoto"><span>MTOTO<br>AFRICA</span><small>Website redesign</small></div><div class="cover-caption"><h2>Mtoto Africa</h2><p>UI / UX / HTML / CSS / JavaScript</p></div></div>
+          <div class="project-info"><div><span class="status">Work in progress</span><p>Redesigning and refining the website for Mtoto Africa, a nonprofit organization, to modernize its visual identity, improve usability, and help people learn about and support its mission.</p></div><button class="more" data-project="mtoto" aria-label="More about the ongoing Mtoto Africa project">More <span aria-hidden="true">↗</span></button></div>
+        </article>
+      </div>
+    </div>
+  </main>
+  <footer id="contact"><div class="contact-links"><a href="mailto:cterrell30@gmail.com" aria-label="Email Caden Terrell"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3z" fill="currentColor"/><path d="m3 6 9 7 9-7" fill="none" stroke="var(--paper)" stroke-width="1.7"/></svg><span>Email</span></a><a href="https://www.behance.net/cadenterrell" target="_blank" rel="noopener noreferrer" aria-label="Caden Terrell on Behance (opens in a new tab)"><b aria-hidden="true">Bē</b><span>Behance</span></a></div></footer>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><button class="close" aria-label="Close project details">×</button><div id="dialog-image"></div><div class="dialog-copy"><p id="dialog-category"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><a href="https://www.behance.net/cadenterrell" target="_blank" rel="noopener noreferrer" class="behance-link">Explore my Behance <span aria-hidden="true">↗</span></a></div></dialog>
+</body>
+</html>
